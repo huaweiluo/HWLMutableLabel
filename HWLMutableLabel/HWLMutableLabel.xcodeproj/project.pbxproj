@@ -16,6 +16,8 @@
 		838306B72326955C00186E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306B62326955C00186E51 /* main.m */; };
 		838306C12326955C00186E51 /* HWLMutableLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306C02326955C00186E51 /* HWLMutableLabelTests.m */; };
 		838306CC2326955C00186E51 /* HWLMutableLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306CB2326955C00186E51 /* HWLMutableLabelUITests.m */; };
+		838306DF232695EA00186E51 /* UILabel+NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306DE232695EA00186E51 /* UILabel+NSAttributedString.m */; };
+		838306E2232698FE00186E51 /* HWLMutableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306E0232698FE00186E51 /* HWLMutableLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		838306C72326955C00186E51 /* HWLMutableLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWLMutableLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		838306CB2326955C00186E51 /* HWLMutableLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLMutableLabelUITests.m; sourceTree = "<group>"; };
 		838306CD2326955C00186E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838306DD232695EA00186E51 /* UILabel+NSAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NSAttributedString.h"; sourceTree = "<group>"; };
+		838306DE232695EA00186E51 /* UILabel+NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NSAttributedString.m"; sourceTree = "<group>"; };
+		838306E0232698FE00186E51 /* HWLMutableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLMutableLabel.m; sourceTree = "<group>"; };
+		838306E1232698FE00186E51 /* HWLMutableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLMutableLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		838306982326955A00186E51 = {
 			isa = PBXGroup;
 			children = (
+				838306D9232695B100186E51 /* Classes */,
 				838306A32326955B00186E51 /* HWLMutableLabel */,
 				838306BF2326955C00186E51 /* HWLMutableLabelTests */,
 				838306CA2326955C00186E51 /* HWLMutableLabelUITests */,
@@ -135,6 +142,18 @@
 				838306CD2326955C00186E51 /* Info.plist */,
 			);
 			path = HWLMutableLabelUITests;
+			sourceTree = "<group>";
+		};
+		838306D9232695B100186E51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				838306E1232698FE00186E51 /* HWLMutableLabel.h */,
+				838306E0232698FE00186E51 /* HWLMutableLabel.m */,
+				838306DD232695EA00186E51 /* UILabel+NSAttributedString.h */,
+				838306DE232695EA00186E51 /* UILabel+NSAttributedString.m */,
+			);
+			name = Classes;
+			path = HWLMutableLabel/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +288,8 @@
 			files = (
 				838306AC2326955B00186E51 /* ViewController.m in Sources */,
 				838306A62326955B00186E51 /* AppDelegate.m in Sources */,
+				838306DF232695EA00186E51 /* UILabel+NSAttributedString.m in Sources */,
+				838306E2232698FE00186E51 /* HWLMutableLabel.m in Sources */,
 				838306B72326955C00186E51 /* main.m in Sources */,
 				838306A92326955B00186E51 /* SceneDelegate.m in Sources */,
 			);
@@ -375,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
