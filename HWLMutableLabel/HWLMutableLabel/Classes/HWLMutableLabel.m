@@ -17,10 +17,8 @@
 - (id)init {
     self = [super init];
     if (self) {
-        self.backgroundColor = [UIColor darkGrayColor];
-        self.textColor = [UIColor yellowColor];
-        self.font = [UIFont systemFontOfSize:38.f/2];
         self.numberOfLines = 0;
+        self.edgeInsets = UIEdgeInsetsZero;
     }
     
     return self;
@@ -35,12 +33,28 @@
 - (void)setMutableLabelText:(NSString *)mutableLabelText {
     _mutableLabelText = mutableLabelText;
     
-    [self setLineSpace:18.f/2 withText:mutableLabelText];
-    NSRange range = NSMakeRange(0, [self.attributedText length]-1);
-    NSDictionary<NSAttributedStringKey, id> * attrDict = [self.attributedText attributesAtIndex:0 effectiveRange:&range];
-    self.height = [self getSpaceLabelHeight:mutableLabelText withAttrDict:attrDict withWidth:self.width];
+    [self setLineSpace:self.lineSpace withText:mutableLabelText];
+    [self sizeToFit];
 }
 
+#pragma mark -
+#pragma mark overWrite
+- (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines {
+    UIEdgeInsets insets = self.edgeInsets;
+    CGRect rect = [super textRectForBounds:UIEdgeInsetsInsetRect(bounds, insets)
+                    limitedToNumberOfLines:numberOfLines];
+    
+    rect.origin.x    -= insets.left;
+    rect.origin.y    -= insets.top;
+    rect.size.width  += (insets.left + insets.right);
+    rect.size.height += (insets.top + insets.bottom);
+    
+    return rect;
+}
+
+- (void)drawTextInRect:(CGRect)rect {
+    [super drawTextInRect:UIEdgeInsetsInsetRect(rect, self.edgeInsets)];
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

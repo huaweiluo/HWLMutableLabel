@@ -37,6 +37,11 @@
 - (HWLMutableLabel*)hwlMutableLabel {
     if (!_hwlMutableLabel) {
         _hwlMutableLabel = [[HWLMutableLabel alloc] init];
+        _hwlMutableLabel.backgroundColor = [UIColor redColor];
+        _hwlMutableLabel.textColor = [UIColor yellowColor];
+        _hwlMutableLabel.font = [UIFont systemFontOfSize:38.f/2];
+        _hwlMutableLabel.lineSpace = 18.f/2;
+        _hwlMutableLabel.edgeInsets = UIEdgeInsetsMake(4.f, 0.f, 4.f, 0.f);
         [self.view addSubview:_hwlMutableLabel];
     }
     

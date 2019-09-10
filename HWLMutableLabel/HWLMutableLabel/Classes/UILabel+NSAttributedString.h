@@ -10,8 +10,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UILabel(NSAttributedString)
+
+/**
+ 设置固定行间距文本
+ 
+ @param lineSpace 行间距
+ @param text 文本内容
+ */
 - (void)setLineSpace:(CGFloat)lineSpace withText:(NSString *)text;
-- (CGFloat)getSpaceLabelHeight:(NSString *)str withAttrDict:(NSDictionary *)dict withWidth:(CGFloat)width;
+
 @end
 
 NS_ASSUME_NONNULL_END
