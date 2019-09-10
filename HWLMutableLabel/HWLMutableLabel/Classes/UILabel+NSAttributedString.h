@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UILabel(NSAttributedString)
 - (void)setLineSpace:(CGFloat)lineSpace withText:(NSString *)text;
+- (CGFloat)getSpaceLabelHeight:(NSString *)str withAttrDict:(NSDictionary *)dict withWidth:(CGFloat)width;
 @end
 
 NS_ASSUME_NONNULL_END

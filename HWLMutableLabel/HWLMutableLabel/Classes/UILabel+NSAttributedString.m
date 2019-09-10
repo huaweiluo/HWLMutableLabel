@@ -29,6 +29,13 @@
     self.attributedText = attributedString;
 }
 
+- (CGFloat)getSpaceLabelHeight:(NSString *)str withAttrDict:(NSDictionary *)dict withWidth:(CGFloat)width {
+    
+    CGSize size = [str boundingRectWithSize:CGSizeMake(width, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:dict context:nil].size;
+    
+    return size.height;
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <YYCategories/UIView+YYAdd.h>
 #import "HWLMutableLabel.h"
 
 @interface ViewController ()
@@ -23,9 +24,14 @@
 
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
-    self.hwlMutableLabel.frame = CGRectMake(20.f, self.view, <#CGFloat width#>, <#CGFloat height#>)
+    self.hwlMutableLabel.frame = CGRectMake(20.f, 160.f, (self.view.width-20.f*2), self.hwlMutableLabel.height);
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    self.hwlMutableLabel.mutableLabelText = @"抖擞我金佛山讲法律司机反馈谁了解风口浪尖拉三等奖发顺丰吉林省看点风景";
+}
 #pragma mark -
 #pragma mark property method
 - (HWLMutableLabel*)hwlMutableLabel {

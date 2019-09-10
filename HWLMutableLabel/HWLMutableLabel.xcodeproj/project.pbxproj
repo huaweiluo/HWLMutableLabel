@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E0BB9F1B612AAFCFD138D5 /* libPods-HWLMutableLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5079A5DB9C8428C27D7737 /* libPods-HWLMutableLabel.a */; };
 		838306A62326955B00186E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306A52326955B00186E51 /* AppDelegate.m */; };
 		838306A92326955B00186E51 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306A82326955B00186E51 /* SceneDelegate.m */; };
 		838306AC2326955B00186E51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306AB2326955B00186E51 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 		838306CC2326955C00186E51 /* HWLMutableLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306CB2326955C00186E51 /* HWLMutableLabelUITests.m */; };
 		838306DF232695EA00186E51 /* UILabel+NSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306DE232695EA00186E51 /* UILabel+NSAttributedString.m */; };
 		838306E2232698FE00186E51 /* HWLMutableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 838306E0232698FE00186E51 /* HWLMutableLabel.m */; };
+		CFB7F3B933BFE2A1C70BA1EC /* libPods-HWLMutableLabelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DD245EA3D4448503031AAF /* libPods-HWLMutableLabelTests.a */; };
+		DEF30581B8F0CE235C579D66 /* libPods-HWLMutableLabelUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461F1E3F87E50E9ECE3C927 /* libPods-HWLMutableLabelUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5461F1E3F87E50E9ECE3C927 /* libPods-HWLMutableLabelUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HWLMutableLabelUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0C81FD71AA020BBC59F82F /* Pods-HWLMutableLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWLMutableLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HWLMutableLabelTests/Pods-HWLMutableLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F67E715293C68E4ED93C519 /* Pods-HWLMutableLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWLMutableLabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HWLMutableLabelUITests/Pods-HWLMutableLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		838306A12326955A00186E51 /* HWLMutableLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWLMutableLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838306A42326955B00186E51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		838306A52326955B00186E51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +66,12 @@
 		838306DE232695EA00186E51 /* UILabel+NSAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NSAttributedString.m"; sourceTree = "<group>"; };
 		838306E0232698FE00186E51 /* HWLMutableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLMutableLabel.m; sourceTree = "<group>"; };
 		838306E1232698FE00186E51 /* HWLMutableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLMutableLabel.h; sourceTree = "<group>"; };
+		9E5079A5DB9C8428C27D7737 /* libPods-HWLMutableLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HWLMutableLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F62EEC1586BEB43EE82A86 /* Pods-HWLMutableLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWLMutableLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-HWLMutableLabel/Pods-HWLMutableLabel.release.xcconfig"; sourceTree = "<group>"; };
+		AE9C1B7F0CCE380DEEBB8F34 /* Pods-HWLMutableLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWLMutableLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HWLMutableLabelTests/Pods-HWLMutableLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA34D9AF61EAD0093199EFB9 /* Pods-HWLMutableLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWLMutableLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HWLMutableLabelUITests/Pods-HWLMutableLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9401C5D4563BD75A8A28B69 /* Pods-HWLMutableLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HWLMutableLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HWLMutableLabel/Pods-HWLMutableLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		E4DD245EA3D4448503031AAF /* libPods-HWLMutableLabelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HWLMutableLabelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E0BB9F1B612AAFCFD138D5 /* libPods-HWLMutableLabel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB7F3B933BFE2A1C70BA1EC /* libPods-HWLMutableLabelTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +95,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF30581B8F0CE235C579D66 /* libPods-HWLMutableLabelUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5566C25AB3FAD32B08D91582 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9401C5D4563BD75A8A28B69 /* Pods-HWLMutableLabel.debug.xcconfig */,
+				A8F62EEC1586BEB43EE82A86 /* Pods-HWLMutableLabel.release.xcconfig */,
+				6B0C81FD71AA020BBC59F82F /* Pods-HWLMutableLabelTests.debug.xcconfig */,
+				AE9C1B7F0CCE380DEEBB8F34 /* Pods-HWLMutableLabelTests.release.xcconfig */,
+				CA34D9AF61EAD0093199EFB9 /* Pods-HWLMutableLabelUITests.debug.xcconfig */,
+				6F67E715293C68E4ED93C519 /* Pods-HWLMutableLabelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		838306982326955A00186E51 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +123,8 @@
 				838306BF2326955C00186E51 /* HWLMutableLabelTests */,
 				838306CA2326955C00186E51 /* HWLMutableLabelUITests */,
 				838306A22326955A00186E51 /* Products */,
+				5566C25AB3FAD32B08D91582 /* Pods */,
+				DD7A3BEC808552F8D800DF74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +186,16 @@
 			path = HWLMutableLabel/Classes;
 			sourceTree = "<group>";
 		};
+		DD7A3BEC808552F8D800DF74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5079A5DB9C8428C27D7737 /* libPods-HWLMutableLabel.a */,
+				E4DD245EA3D4448503031AAF /* libPods-HWLMutableLabelTests.a */,
+				5461F1E3F87E50E9ECE3C927 /* libPods-HWLMutableLabelUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 838306D02326955C00186E51 /* Build configuration list for PBXNativeTarget "HWLMutableLabel" */;
 			buildPhases = (
+				B29ABF5B78205436DA6ED8E2 /* [CP] Check Pods Manifest.lock */,
 				8383069D2326955A00186E51 /* Sources */,
 				8383069E2326955A00186E51 /* Frameworks */,
 				8383069F2326955A00186E51 /* Resources */,
+				7893A23915BFD19F1A5B060B /* [CP] Embed Pods Frameworks */,
+				9D68C75076F502D9729F4A50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 838306D32326955C00186E51 /* Build configuration list for PBXNativeTarget "HWLMutableLabelTests" */;
 			buildPhases = (
+				9456F6509874E908BA8C821A /* [CP] Check Pods Manifest.lock */,
 				838306B82326955C00186E51 /* Sources */,
 				838306B92326955C00186E51 /* Frameworks */,
 				838306BA2326955C00186E51 /* Resources */,
+				926D834534B975ECA33C756F /* [CP] Embed Pods Frameworks */,
+				EE89D38531365D126D3F28D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 838306D62326955C00186E51 /* Build configuration list for PBXNativeTarget "HWLMutableLabelUITests" */;
 			buildPhases = (
+				C8585C63516768C836F12C18 /* [CP] Check Pods Manifest.lock */,
 				838306C32326955C00186E51 /* Sources */,
 				838306C42326955C00186E51 /* Frameworks */,
 				838306C52326955C00186E51 /* Resources */,
+				3E501F4E694D41062275732F /* [CP] Embed Pods Frameworks */,
+				1031A3DCFB49ACD57517E450 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,6 +329,189 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1031A3DCFB49ACD57517E450 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HWLMutableLabelUITests/Pods-HWLMutableLabelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E501F4E694D41062275732F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HWLMutableLabelUITests/Pods-HWLMutableLabelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7893A23915BFD19F1A5B060B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HWLMutableLabel/Pods-HWLMutableLabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926D834534B975ECA33C756F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HWLMutableLabelTests/Pods-HWLMutableLabelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9456F6509874E908BA8C821A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HWLMutableLabelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D68C75076F502D9729F4A50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HWLMutableLabel/Pods-HWLMutableLabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29ABF5B78205436DA6ED8E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HWLMutableLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8585C63516768C836F12C18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HWLMutableLabelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE89D38531365D126D3F28D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HWLMutableLabelTests/Pods-HWLMutableLabelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8383069D2326955A00186E51 /* Sources */ = {
@@ -458,6 +690,7 @@
 		};
 		838306D12326955C00186E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9401C5D4563BD75A8A28B69 /* Pods-HWLMutableLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +708,7 @@
 		};
 		838306D22326955C00186E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F62EEC1586BEB43EE82A86 /* Pods-HWLMutableLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +726,7 @@
 		};
 		838306D42326955C00186E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0C81FD71AA020BBC59F82F /* Pods-HWLMutableLabelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +746,7 @@
 		};
 		838306D52326955C00186E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9C1B7F0CCE380DEEBB8F34 /* Pods-HWLMutableLabelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +766,7 @@
 		};
 		838306D72326955C00186E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA34D9AF61EAD0093199EFB9 /* Pods-HWLMutableLabelUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC54HAUG82;
@@ -548,6 +785,7 @@
 		};
 		838306D82326955C00186E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F67E715293C68E4ED93C519 /* Pods-HWLMutableLabelUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC54HAUG82;
